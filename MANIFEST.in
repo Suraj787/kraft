@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kraft_cv *.css
+recursive-include kraft_cv *.csv
+recursive-include kraft_cv *.html
+recursive-include kraft_cv *.ico
+recursive-include kraft_cv *.js
+recursive-include kraft_cv *.json
+recursive-include kraft_cv *.md
+recursive-include kraft_cv *.png
+recursive-include kraft_cv *.py
+recursive-include kraft_cv *.svg
+recursive-include kraft_cv *.txt
+recursive-exclude kraft_cv *.pyc
